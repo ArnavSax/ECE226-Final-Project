@@ -1,0 +1,1 @@
+Explain how memory bandwidth and PCIe transfer overhead affect large language model inference on consumer GPUs.

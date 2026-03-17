@@ -1,0 +1,9 @@
+Explain how memory bandwidth and PCIe transfer overhead affect large language model inference on consumer GPUs. Memory bandwidth and PCIe (Peripheral Component Interconnect Express) transfer overhead are two critical factors that can significantly impact the performance of large language model inference on consumer GPUs.
+
+### Memory Bandwidth
+
+**Definition:**
+Memory bandwidth refers to the maximum rate at which data can be read from or written to a GPU's memory. It is typically measured in gigabytes per second (GB/s).
+
+**Impact on Inference:**
+1. **Data Loading:** During inference, the model needs to load input data and intermediate results into its memory. If the memory bandwidth is insufficient, it can lead to bottlenecks where the GPU spends more time waiting for
